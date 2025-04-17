@@ -1,0 +1,39 @@
+Label distribution in the full training set:
+Activity
+Laying               1407
+Standing             1374
+Sitting              1286
+Walking              1226
+Walking_Upstair      1073
+Walking_Downstair     986
+Name: count, dtype: int64
+
+Label distribution in the test set:
+Activity
+Laying               537
+Standing             532
+Walking              496
+Sitting              491
+Walking_Upstair      471
+Walking_Downstair    420
+Name: count, dtype: int64
+
+Mapped label distribution in the full training set:
+Activity
+6    1407
+5    1374
+4    1286
+1    1226
+2    1073
+3     986
+Name: count, dtype: int64
+
+Mapped label distribution in the test set:
+Activity
+6    537
+5    532
+1    496
+4    491
+2    471
+3    420
+Name: count, dtype: int64

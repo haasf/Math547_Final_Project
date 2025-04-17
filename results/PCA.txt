@@ -1,0 +1,25 @@
+LSTM Results
+No PCA:             Best Test Accuracy: 94.84%
+PCA Components: 10, Best Test Accuracy: 84.29%
+PCA Components: 50, Best Test Accuracy: 92.43%
+PCA Components: 100, Best Test Accuracy: 93.86%
+PCA Components: 150, Best Test Accuracy: 95.18%
+PCA Components: 200, Best Test Accuracy: 95.05%
+PCA Components: 250, Best Test Accuracy: 95.69%
+PCA Components: 300, Best Test Accuracy: 95.89%
+PCA Components: 350, Best Test Accuracy: 96.00%
+PCA Components: 400, Best Test Accuracy: 96.64%
+PCA Components: 500, Best Test Accuracy: 95.86%
+
+FCNN Results
+No PCA              Best Test Accuracy: 94.54%
+PCA Components: 10, Best Test Accuracy: 84.39%
+PCA Components: 50, Best Test Accuracy: 92.20%
+PCA Components: 100, Best Test Accuracy: 93.69%
+PCA Components: 150, Best Test Accuracy: 94.64%
+PCA Components: 200, Best Test Accuracy: 95.28%
+PCA Components: 250, Best Test Accuracy: 96.00%
+PCA Components: 300, Best Test Accuracy: 96.30%
+PCA Components: 350, Best Test Accuracy: 96.10%
+PCA Components: 400, Best Test Accuracy: 96.06%
+PCA Components: 500, Best Test Accuracy: 96.81%

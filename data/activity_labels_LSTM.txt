@@ -1,0 +1,6 @@
+0 Walking
+1 Walking_Upstair
+2 Walking_Downstair
+3 Sitting
+4 Standing
+5 Laying
