@@ -23,3 +23,29 @@ PCA Components: 300, Best Test Accuracy: 96.30%
 PCA Components: 350, Best Test Accuracy: 96.10%
 PCA Components: 400, Best Test Accuracy: 96.06%
 PCA Components: 500, Best Test Accuracy: 96.81%
+
+LogisticRegression
+No PCA:             Best Test Accuracy: 95.49%
+PCA Components: 10, Best Test Accuracy: 84.02%
+PCA Components: 50, Best Test Accuracy: 91.58%
+PCA Components: 100, Best Test Accuracy: 93.38%
+PCA Components: 150, Best Test Accuracy: 94.57%
+PCA Components: 200, Best Test Accuracy: 94.57%
+PCA Components: 250, Best Test Accuracy: 95.18%
+PCA Components: 300, Best Test Accuracy: 95.35%
+PCA Components: 350, Best Test Accuracy: 95.52%
+PCA Components: 400, Best Test Accuracy: 95.45%
+PCA Components: 500, Best Test Accuracy: 95.55%
+
+kNN
+No PCA:             Best Test Accuracy: 88.36%
+PCA Components: 10, Best Test Accuracy: 81.34%
+PCA Components: 50, Best Test Accuracy: 86.02%
+PCA Components: 100, Best Test Accuracy: 87.48%
+PCA Components: 150, Best Test Accuracy: 88.29%
+PCA Components: 200, Best Test Accuracy: 88.36%
+PCA Components: 250, Best Test Accuracy: 88.33%
+PCA Components: 300, Best Test Accuracy: 88.43%
+PCA Components: 350, Best Test Accuracy: 88.36%
+PCA Components: 400, Best Test Accuracy: 88.36%
+PCA Components: 500, Best Test Accuracy: 88.36%

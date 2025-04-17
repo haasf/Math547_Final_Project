@@ -6,6 +6,8 @@ from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.feature_selection import SelectKBest, f_classif
+from sklearn.neighbors import KNeighborsClassifier
+
 
 # Load activity labels from activity_labels.txt
 activity_labels_path = 'data/activity_labels.txt'
@@ -71,10 +73,12 @@ if __name__ == "__main__":
     clf = LogisticRegression(max_iter=1000, random_state=42)
     clf.fit(X_train_pca, y_train)
 
+    # knn = KNeighborsClassifier(n_neighbors=5)
+    # knn.fit(X_train_pca, y_train)
     # --------------------------
     # 5. Evaluate on the test set
     # --------------------------
-    y_pred = clf.predict(X_test_pca)
+    y_pred = cfl.predict(X_test_pca)
     # print(y_pred)
     accuracy = accuracy_score(y_test, y_pred)
     # print(classification_report(y_test, y_pred))
